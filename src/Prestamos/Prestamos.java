@@ -5,10 +5,8 @@ package Prestamos;/*
  */
 
 
-import Libros.Usuarios;
+import Usuarios.Usuarios;
 
-import java.io.Serializable;
-import java.util.Date;
 import java.time.LocalDate;
 /**
  *

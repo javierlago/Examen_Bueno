@@ -40,6 +40,12 @@ public class LibrosOcio extends Libros{
     public void setP(ArrayList <Prestamos> p) {
         this.p = p;
     }
+
+    public void anadirPrestamo(Prestamos prestamos){
+        p.add(prestamos);
+
+    }
+
     
     
     

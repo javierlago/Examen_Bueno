@@ -6,7 +6,7 @@ import Prestamos.Prestamos;
 
 import java.util.ArrayList;
 
-public class Biblioteca_Operaciones {
+public class bibliotecaOperaciones {
    private ArrayList<Biblioteca> BiblotecasUnidas = new ArrayList<>();
    public  void operacionesBiblioteca() {
 
