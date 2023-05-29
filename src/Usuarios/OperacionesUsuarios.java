@@ -24,9 +24,6 @@ public class OperacionesUsuarios {
        return  user;
     }
 
-    public boolean tieneSancion(Usuarios user){
-        return user.isSancion();
-    }
 
 
 }
