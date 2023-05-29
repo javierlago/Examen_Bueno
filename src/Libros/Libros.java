@@ -5,6 +5,8 @@
  */
 package Libros;
 
+import Prestamos.Prestamos;
+
 import java.io.Serializable;
 
 /**
@@ -58,5 +60,6 @@ public abstract class Libros{
     public void setEstado(boolean estado) {
         this.estado = estado;
     }
-     
+
+
 }

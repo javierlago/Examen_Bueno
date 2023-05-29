@@ -41,12 +41,10 @@ public class LibrosOcio extends Libros{
         this.p = p;
     }
 
-    public void anadirPrestamo(Prestamos prestamos){
-        p.add(prestamos);
 
+    public void anadirPrestamo(Prestamos prestamo){
+        this.p.add(prestamo);
     }
 
-    
-    
-    
+
 }

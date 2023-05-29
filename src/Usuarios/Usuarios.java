@@ -3,6 +3,8 @@ package Usuarios;
 import java.time.LocalDate;
 
 public class Usuarios {
+
+
     public Usuarios(int id, String dniLector, String nombre, String apellido1, String apellido2, String domicilio, String tel, boolean sancion) {
         this.id = id;
         this.dniLector = dniLector;
@@ -12,6 +14,9 @@ public class Usuarios {
         this.domicilio = domicilio;
         this.tel = tel;
         this.sancion = sancion;
+    }
+
+    public Usuarios() {
     }
 
     private int id;
