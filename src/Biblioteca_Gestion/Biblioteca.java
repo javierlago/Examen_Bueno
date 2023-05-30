@@ -69,7 +69,7 @@ public class Biblioteca{
         L.add(LibroTexto);
     }
     public void mostrarNombre(){
-        System.out.println(this.nombre);
+        System.out.println("->"+this.nombre);
 
     }
     
