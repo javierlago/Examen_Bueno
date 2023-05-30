@@ -1,6 +1,4 @@
 import Biblioteca_Gestion.*;
-import Create_Files.newFile;
-import Create_XML.Leer_Escribir_Xstream;
 import Prestamos.Gestion_Prestamos;
 import com.thoughtworks.xstream.XStream;
 
@@ -17,15 +15,11 @@ public class Menu_Principal {
         Gestion_Prestamos gp = new Gestion_Prestamos();
        bo.operacionesBiblioteca();
        //gp.PrestamoLibros(bo.BiblotecasUnidas);
-            writeXML(reader,bo.BiblotecasUnidas,createXMLfile("caca"));
-
-
-
-
-
-
-
-
+            writeXML(reader,bo.BiblotecasUnidas,createXMLfile("Bibliotecas"));
 
     }
+
+
+
+
 }
